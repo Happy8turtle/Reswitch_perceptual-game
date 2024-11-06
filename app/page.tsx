@@ -1,5 +1,5 @@
 'use client'
-import PerceptualGame from '../components/PerceptualGame'
+import PerceptualGame from './components/PerceptualGame'
 
 export default function Home() {
   return (
