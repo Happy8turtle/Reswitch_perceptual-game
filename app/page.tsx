@@ -1,5 +1,9 @@
 'use client'
-import PerceptualGame from './components/PerceptualGame'
+import dynamic from 'next/dynamic'
+
+const PerceptualGame = dynamic(() => import('./components/PerceptualGame'), {
+  ssr: false
+})
 
 export default function Home() {
   return (
