@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+// Entfernen wir den nicht verwendeten Import:
+// import type { NextRequest } from 'next/server'
 
-export function middleware() {  // Parameter 'request' entfernt, da nicht verwendet
+export function middleware() {
   const response = NextResponse.next()
 
   // CORS headers
