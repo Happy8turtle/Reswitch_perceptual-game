@@ -1,3 +1,10 @@
+import './globals.css'
+
+export const metadata = {
+  title: 'Perceptual Training Game',
+  description: 'A reaction training game',
+}
+
 export default function RootLayout({
   children,
 }: {
